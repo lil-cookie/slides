@@ -1,20 +1,44 @@
-  /* #bg {
-    height: 725px;
-    width: 1280px;
-  background: url(img/back.png) 100% 100% no-repeat; 
-    background-size: cover;*/
-
-#roller
+#bg
 {
+	position: absolute;
+	top:0px;
 	display: block;
-	margin: -725px 0px 0px 0px;
-	z-index: 1;
+	z-index: -2;
+	width: 1280px;
+	height: 752px;
+	background: url('img/back.png') no-repeat;
 }
 
-#slider
+#pacient
 {
-	display: block;
-	background:#fff;
-	/*margin: 70px auto 0px;*/
+top:20px;
+left:400px;/*165*/
+background: url('img/sad.png') no-repeat;
+width: 835px;
+height: 510px;
+z-index: 1;
+position: absolute;
 }
 
+
+#pill
+{
+
+position: absolute;
+top:120px;
+left:140px;
+background: url('img/pill.png') no-repeat;
+width: 80px;
+height: 35px;
+z-index: 1;
+}
+
+
+.rotate {
+transition: transform 3s;
+transform: rotate(430deg);
+}
+
+.hide{
+display: none;
+}
