@@ -4,10 +4,11 @@
   background: url(img/back.png) 100% 100% no-repeat; 
     background-size: cover;*/
 
-#buttons
+#roller
 {
 	display: block;
-	margin: -1280px auto 0px;
+	margin: -725px 0px 0px 0px;
+	z-index: 1;
 }
 
 #slider

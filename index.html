@@ -3,12 +3,17 @@
 <head>
 <link rel="stylesheet" href="1.css">
 <link rel="stylesheet" href="buttons.css">
+<link rel="stylesheet" href="roller.css">
+
+<script src="http://code.jquery.com/jquery-latest.js"></script><!--Подключаем библиотеку Jquery-->
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/><!--Подключаем стили CSS для библиотеки Jquery UI-->
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script><!--Подключаем библиотеку Jquery UI-->
 <meta charset="utf-8">
 </head>
 
 <body> 
 	<canvas id="slider"></canvas>
-	<canvas id="buttons"></canvas>	
+	<!--<canvas id="roller"> </canvas>-->
 	
 
     <div id="buttons-input">
@@ -17,11 +22,19 @@
     <input id="week" type="button" onclick="turn('week')" name="button"/>
 
     <input id="mounth" type="button" onclick="turn('mounth')" name="button"/>
+    </div>
+
+<span id="contentRoller"></span>
+<div id="rollerContainer">
+    <div class="ui-slider-handle ui-state-default ui-corner-all" style="left: 0%;">
+    <img id="roller" src="img/roller white.png" />
+    </div>
 </div>
 
 
  <script src="1.js"></script>
  <script src="buttons.js"></script>
+<script src="roller.js"></script>
 </body>
 </html>
 
