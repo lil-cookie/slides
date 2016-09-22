@@ -1,0 +1,38 @@
+ #buttons-input {
+  top:635px;
+  left:330px;
+  overflow: hidden;
+  position: absolute;
+  float: left;
+  z-index: 1;
+}
+
+ input[type="button"] {
+  /*filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);*/
+  width: 209px;
+  height: 75px;
+  margin-right: 5px;
+  border:none; 
+  float: right;
+  cursor: pointer;
+ 
+}
+
+#day
+{
+    background: url('img/day-sprite.png') no-repeat;
+}
+
+#week
+{
+    background: url('img/week-sprite.png') no-repeat;
+}
+#mounth
+{
+    background: url('img/mounth-sprite.png') no-repeat;
+}
+
+#mounth.turn,#week.turn,#day.turn {
+  background-position: 0 -78px;
+}
+
