@@ -23,7 +23,9 @@ position: absolute;
 
 #pill
 {
-
+transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-webkit-transform:rotate(45deg);
 position: absolute;
 top:120px;
 left:140px;
