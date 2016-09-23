@@ -23,7 +23,7 @@ background:linear-gradient(#9B9B9B, #ccc);
 #redBoxContainer{
 top:465px;
 left:165px;/*165*/
-background: url('img/roller red.png') no-repeat;
+background: url('../img/roller red.png') no-repeat;
 width: 44px;
 height: 46px;
 z-index: 0;
@@ -34,7 +34,7 @@ position: absolute;
 #numbersContainer{
 top:475px;
 left:178px;
-background: url('img/figures.png') no-repeat;
+background: url('../img/figures.png') no-repeat;
 width: 941px;
 height: 24px;
 z-index: 1;

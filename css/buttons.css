@@ -20,16 +20,16 @@
 
 #day
 {
-    background: url('img/day-sprite.png') no-repeat;
+    background: url('../img/day-sprite.png') no-repeat;
 }
 
 #week
 {
-    background: url('img/week-sprite.png') no-repeat;
+    background: url('../img/week-sprite.png') no-repeat;
 }
 #mounth
 {
-    background: url('img/mounth-sprite.png') no-repeat;
+    background: url('../img/mounth-sprite.png') no-repeat;
 }
 
 #mounth.turn,#week.turn,#day.turn {
