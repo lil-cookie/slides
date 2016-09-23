@@ -40,7 +40,7 @@ transform: rotate(430deg);
 }
 
 /* Safari and Chrome */
-/*
+
 @-webkit-keyframes rotate  {
   from {
     -ms-transform: rotate(0deg);
@@ -80,7 +80,7 @@ transform: rotate(430deg);
   -ms-animation: rotate 2s ;
   -o-animation: rotate 2s;
   animation: rotate 2s ;
-}*/
+}
 
 
 /*
