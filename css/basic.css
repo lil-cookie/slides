@@ -43,43 +43,43 @@ transform: rotate(430deg);
 
 @-webkit-keyframes rotate  {
   from {
-    -ms-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
   }
   to {
-    -ms-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
+    -ms-transform: rotate(430deg);
+    -moz-transform: rotate(430deg);
+    -webkit-transform: rotate(430deg);
+    -o-transform: rotate(430deg);
+    transform: rotate(430deg);
   }
 }
 @keyframes rotate {
   from {
-    -ms-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
   }
   to {
-    -ms-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
+    -ms-transform: rotate(430deg);
+    -moz-transform: rotate(430deg);
+    -webkit-transform: rotate(430deg);
+    -o-transform: rotate(430deg);
+    transform: rotate(430deg);
   }
 }
 
 .rotate {
-  -webkit-animation: rotate 2s ;
-  -moz-animation: rotate 2s ;
-  -ms-animation: rotate 2s ;
-  -o-animation: rotate 2s;
-  animation: rotate 2s ;
+  -webkit-animation: rotate 3s ;
+  -moz-animation: rotate 3s ;
+  -ms-animation: rotate 3s ;
+  -o-animation: rotate 3s;
+  animation: rotate 3s ;
 }
 
 
