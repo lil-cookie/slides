@@ -20,7 +20,9 @@ $(document).ready(function(){
             (function(){
                 // как анимация завершиться "разблокируем кнопку"
                 // навесим на нее опять действие
-                $('#pill').addClass("hide");
+                $('#pill').removeClass("rotate");
+                //$('#pill').addClass("hide");
+                document.getElementById('pill').style.display="none";
                 document.getElementById('pacient').style.backgroundImage="url(img/happy.png)";
                 document.getElementById('pacient').style.left="200px";
             })                  

@@ -1,0 +1,89 @@
+/* ------ general
+-----------------------------------------------*/
+
+body {
+/*font-family:Arial, Helvetica, sans-serif;
+background:#f1f1f1;
+font-size:11px;*/
+}
+
+/* ------ mobilyslider
+-----------------------------------------------*/
+
+#content {
+width:12800px;
+
+}
+
+.slider {
+float:left;
+width:1280px;
+height:752px;
+position:relative;
+}
+
+.sliderContent {
+float:left;
+width:1280px;
+height:752px;
+clear:both;
+position:relative;
+overflow:hidden;
+}
+
+.sliderArrows a {
+display:block;
+text-indent:-9999px;
+outline:none;
+z-index:5;
+background-image:url(../img/arrows-sprite.png);
+width:32px;
+height:59px;
+position:absolute;
+top:50%;
+margin-top:-34px;
+}
+
+.prev {
+background-position:0 0;
+left:15px;
+}
+
+.prev:hover {
+/*background-position:0 -44px;*/
+}
+
+.next {
+right:15px;
+background-position:-32px 0;
+}
+
+.next:hover {
+/*background-position:-44px -44px;*/
+}
+
+.sliderContent .item {
+position:absolute;
+width:1280px;
+height:752px;
+background:#fff;
+}
+
+/*.sliderContent a {
+outline:none;
+}
+
+a {
+color: #999999;
+}
+
+a img {
+border:none;
+}*/
+
+a {
+color: #fff;
+}
+a:hover{
+cursor:default;
+}
