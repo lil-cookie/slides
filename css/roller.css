@@ -1,7 +1,8 @@
 #roller
 {
 position: absolute;
-  margin:-30px;
+  margin-left:-20px;
+  margin-top: -30px;
   width:90px;
   height:90px;
 }
@@ -20,7 +21,7 @@ background:linear-gradient(#9B9B9B, #ccc);
 }
 
 
-#redBoxContainer{
+.redBoxContainer{
 top:465px;
 left:165px;/*165*/
 background: url('../img/roller red.png') no-repeat;
@@ -31,7 +32,7 @@ position: absolute;
 }
 
 
-#numbersContainer{
+.numbersContainer{
 top:475px;
 left:178px;
 background: url('../img/figures.png') no-repeat;

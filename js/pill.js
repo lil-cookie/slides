@@ -19,14 +19,14 @@ $(document).ready(function(){
 
             (function(){
                 // как анимация завершиться
-                $('#pill').removeClass("rotate");
-                document.getElementById('pill').style.display="none";
-                document.getElementById('pacient').style.backgroundImage="url(img/happy.png)";
-                document.getElementById('pacient').style.left="200px";
+                $('#pill-1').removeClass("rotate");
+                document.getElementById('pill-1').style.display="none";
+                document.getElementById('pacient-1').style.backgroundImage="url(img/happy.png)";
+                document.getElementById('pacient-1').style.left="200px";
             })                  
         ).addClass('rotate');
     }
      
     //  задаем действия для кнопки
-    $('#pill').bind('click', animateTest);
+    $('#pill-1').bind('click', animateTest);
 });

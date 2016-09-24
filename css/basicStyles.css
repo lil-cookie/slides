@@ -1,4 +1,4 @@
-#bg
+.bg
 {
 	position: absolute;
 	top:0px;
@@ -9,7 +9,7 @@
 	background: url('../img/back.png') no-repeat;
 }
 
-#pacient
+.pacient
 {
 top:20px;
 left:400px;/*165*/
@@ -21,7 +21,7 @@ position: absolute;
 }
 
 
-#pill
+.pill
 {
 transform:rotate(45deg);
 -moz-transform:rotate(45deg);

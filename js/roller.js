@@ -16,15 +16,15 @@ $(document).ready(function(){
         });
 });
 
-var oldvalue=1;
+var oldValue=1;
 countMargin = 0;
 
 function redBox(val)
 {
  countMargin= (val-1)*46;
 
- $("#redBoxContainer").animate({
+ $(".redBoxContainer").animate({
             marginLeft: countMargin+"px"
-        }, 50);
- oldvalue=val;
+        },20);
+ oldValue=val;
 }

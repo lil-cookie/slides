@@ -1,4 +1,4 @@
- #buttons-input {
+ .buttons-input {
   top:635px;
   left:330px;
   overflow: hidden;
@@ -8,30 +8,32 @@
 }
 
  input[type="button"] {
-  width: 209px;
-  height: 75px;
-  margin-right: 5px;
+  width: 203px;
+  height: 69px;
   border:none; 
-  float: right;
+  float: left;
   cursor: pointer;
- 
+  margin-right: 15px;
 }
 
 #day
 {
     background: url('../img/day-sprite.png') no-repeat;
+    background-position: -2px 0px;
 }
 
 #week
 {
     background: url('../img/week-sprite.png') no-repeat;
+    background-position: -2px 0px;
 }
 #mounth
 {
     background: url('../img/mounth-sprite.png') no-repeat;
+    background-position: -2px 0px;
 }
 
 #mounth.turn,#week.turn,#day.turn {
-  background-position: 0 -78px;
+  background-position: -2px -77px;
 }
 
